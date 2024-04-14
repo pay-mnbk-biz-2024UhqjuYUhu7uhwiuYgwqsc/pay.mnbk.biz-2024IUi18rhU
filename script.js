@@ -60,7 +60,7 @@ function formatDate(date) {
     const day = date.getDate();
     const hours = date.getHours();
     const minutes = date.getMinutes();
-    return `Придбано${day} ${months[monthIndex]} о ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
+    return `Придбано  ${day} ${months[monthIndex]} о ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
 }
 
 window.onload = function() {
